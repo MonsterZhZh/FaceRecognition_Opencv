@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D042925201C432D00F5DB02 /* FaceProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D042923201C432D00F5DB02 /* FaceProcess.cpp */; };
+		7D291F471F7360B5006ECB45 /* FaceAlignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D291F461F7360B5006ECB45 /* FaceAlignment.cpp */; };
+		7D8B729F1F67872300B668B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B729E1F67872300B668B7 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D8B72991F67872300B668B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D042923201C432D00F5DB02 /* FaceProcess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FaceProcess.cpp; sourceTree = "<group>"; };
+		7D042924201C432D00F5DB02 /* FaceProcess.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FaceProcess.hpp; sourceTree = "<group>"; };
+		7D291F451F7360A6006ECB45 /* FaceAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceAlignment.h; sourceTree = "<group>"; };
+		7D291F461F7360B5006ECB45 /* FaceAlignment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceAlignment.cpp; sourceTree = "<group>"; };
+		7D8B729B1F67872300B668B7 /* FaceRecognition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FaceRecognition; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8B729E1F67872300B668B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8B72981F67872300B668B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8B72921F67872300B668B7 = {
+			isa = PBXGroup;
+			children = (
+				7D8B729D1F67872300B668B7 /* FaceRecognition */,
+				7D8B729C1F67872300B668B7 /* Products */,
+				7D8B72A51F678D6A00B668B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8B729C1F67872300B668B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B729B1F67872300B668B7 /* FaceRecognition */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8B729D1F67872300B668B7 /* FaceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				7D291F461F7360B5006ECB45 /* FaceAlignment.cpp */,
+				7D291F451F7360A6006ECB45 /* FaceAlignment.h */,
+				7D8B729E1F67872300B668B7 /* main.cpp */,
+				7D042923201C432D00F5DB02 /* FaceProcess.cpp */,
+				7D042924201C432D00F5DB02 /* FaceProcess.hpp */,
+			);
+			path = FaceRecognition;
+			sourceTree = "<group>";
+		};
+		7D8B72A51F678D6A00B668B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8B729A1F67872300B668B7 /* FaceRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8B72A21F67872300B668B7 /* Build configuration list for PBXNativeTarget "FaceRecognition" */;
+			buildPhases = (
+				7D8B72971F67872300B668B7 /* Sources */,
+				7D8B72981F67872300B668B7 /* Frameworks */,
+				7D8B72991F67872300B668B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceRecognition;
+			productName = FaceRecognition;
+			productReference = 7D8B729B1F67872300B668B7 /* FaceRecognition */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8B72931F67872300B668B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MonsterZhZh;
+				TargetAttributes = {
+					7D8B729A1F67872300B668B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D8B72961F67872300B668B7 /* Build configuration list for PBXProject "FaceRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D8B72921F67872300B668B7;
+			productRefGroup = 7D8B729C1F67872300B668B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8B729A1F67872300B668B7 /* FaceRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8B72971F67872300B668B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D291F471F7360B5006ECB45 /* FaceAlignment.cpp in Sources */,
+				7D042925201C432D00F5DB02 /* FaceProcess.cpp in Sources */,
+				7D8B729F1F67872300B668B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D8B72A01F67872300B668B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D8B72A11F67872300B668B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D8B72A31F67872300B668B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/ilmbase/2.2.0/lib,
+					/usr/local/Cellar/openexr/2.2.0/lib,
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+					/usr/local/Cellar/libpng/1.6.28/lib,
+					/usr/local/Cellar/libtiff/4.0.7_2/lib,
+					"/usr/local/Cellar/opencv@2/2.4.13.6/lib",
+					/usr/local/Cellar/libtiff/4.0.9_2/lib,
+					/usr/local/Cellar/lame/3.100/lib,
+					/usr/local/Cellar/libpng/1.6.34/lib,
+					/usr/local/Cellar/gdbm/1.14.1_1/lib,
+					/usr/local/Cellar/xvid/1.3.5/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D8B72A41F67872300B668B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/ilmbase/2.2.0/lib,
+					/usr/local/Cellar/openexr/2.2.0/lib,
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+					/usr/local/Cellar/libpng/1.6.28/lib,
+					/usr/local/Cellar/libtiff/4.0.7_2/lib,
+					"/usr/local/Cellar/opencv@2/2.4.13.6/lib",
+					/usr/local/Cellar/libtiff/4.0.9_2/lib,
+					/usr/local/Cellar/lame/3.100/lib,
+					/usr/local/Cellar/libpng/1.6.34/lib,
+					/usr/local/Cellar/gdbm/1.14.1_1/lib,
+					/usr/local/Cellar/xvid/1.3.5/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8B72961F67872300B668B7 /* Build configuration list for PBXProject "FaceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8B72A01F67872300B668B7 /* Debug */,
+				7D8B72A11F67872300B668B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8B72A21F67872300B668B7 /* Build configuration list for PBXNativeTarget "FaceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8B72A31F67872300B668B7 /* Debug */,
+				7D8B72A41F67872300B668B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8B72931F67872300B668B7 /* Project object */;
+}

@@ -1,0 +1,4 @@
+﻿  validation.cpp
+f:\workspace\traditionalfacerecognition\traditionalfacerecognition\validation.cpp(51): warning C4018: '<': signed/unsigned mismatch
+  TraditionalFaceRecognition.vcxproj -> F:\workspace\TraditionalFaceRecognition\Debug\TraditionalFaceRecognition.exe
+  TraditionalFaceRecognition.vcxproj -> F:\workspace\TraditionalFaceRecognition\Debug\TraditionalFaceRecognition.pdb (Full PDB)
